@@ -29,7 +29,9 @@ render(){
                   <Text style={styles.buttonText}> Login</Text>
             </TouchableOpacity>
 
-
+                <Button onPress={() => { Alert.alert('You tapped the button!'); }}
+                          title="Press Me"
+/>
         </View>
         );
 
